@@ -105,6 +105,9 @@ module JavaBuildpack
       end
 
       def supports_file?
+        puts "ALPHA"
+        puts ca_certificates.exist?
+        puts "BRAVO"
         ca_certificates.exist?
       end
 
