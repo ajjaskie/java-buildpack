@@ -5,8 +5,8 @@
     "isMultiRow": false,
     "ordinal": 0,
     "rows": [{
-      "Storage": "/home/vcap/app/.java-buildpack/thingworx/platform/storage",
-      "BackupStorage": "/home/vcap/app/.java-buildpack/tomcat/thingworx/platform/backup",
+      "Storage": "/home/vcap/app/.java-buildpack/thingworx/storage",
+      "BackupStorage": "/home/vcap/app/.java-buildpack/tomcat/thingworx/backup",
       "EnableSystemLogging": false,
       "EnableBackup": false,
       "DatabaseLogRetentionPolicy": 7
