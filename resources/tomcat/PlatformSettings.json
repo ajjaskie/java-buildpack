@@ -1,0 +1,44 @@
+{
+  "Settings": {
+    "name": "Settings",
+    "description": "Platform Settings",
+    "isMultiRow": false,
+    "ordinal": 0,
+    "rows": [{
+      "Storage": "~/thingworx/platform/storage",
+      "BackupStorage": "~/thingworx/platform/backup",
+      "EnableSystemLogging": false,
+      "EnableBackup": false,
+      "DatabaseLogRetentionPolicy": 7
+    }],
+    "dataShape": {
+      "fieldDefinitions": {
+        "Storage": {
+          "name": "Storage",
+          "baseType": "STRING",
+          "ordinal": 0
+        },
+        "BackupStorage": {
+          "name": "BackupStorage",
+          "baseType": "STRING",
+          "ordinal": 1
+        },
+        "EnableSystemLogging": {
+          "name": "EnableSystemLogging",
+          "baseType": "BOOLEAN",
+          "ordinal": 2
+        },
+        "EnableBackup": {
+          "name": "EnableBackup",
+          "baseType": "BOOLEAN",
+          "ordinal": 3
+        },
+        "DatabaseLogRetentionPolicy": {
+          "name": "DatabaseLogRetentionPolicy",
+          "baseType": "INTEGER",
+          "ordinal": 4
+        }
+      }
+    }
+  }
+}
